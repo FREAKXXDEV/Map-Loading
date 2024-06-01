@@ -19,6 +19,6 @@ private:
 
 private:
 	sf::RenderWindow window;
-	sf::Texture rockTexture;
+	sf::Texture rockTileset;
 	std::vector<Tile*> rocks;
 };

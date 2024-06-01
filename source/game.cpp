@@ -3,7 +3,6 @@
 Game::Game()
 	: window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Map Loading", sf::Style::Close) {
 
-	rockTexture.loadFromFile("graphics/rock.png");
 	loadMap();
 }
 
@@ -44,6 +43,7 @@ void Game::loadMap() {
 	tmx::Map map;
 	map.load("data/map.tmx");
 	const auto &tilesets = map.getTilesets();
+	rockTileset.loadFromFile(tilesets[0].getImagePath().substr(5));
 
 	for (const auto &layer : map.getLayers()) {
 		if (layer->getType() == tmx::Layer::Type::Tile) {
@@ -61,7 +61,7 @@ void Game::loadMap() {
 					
 					if (tiles[i].ID) {
 						Tile *rock = new Tile(TILE_SIZE);
-						rock->setTexture(rockTexture);
+						rock->setTexture(rockTileset);
 						rock->setPosition(posX * TILE_SIZE, posY * TILE_SIZE);
 						rocks.push_back(rock);
 					}
