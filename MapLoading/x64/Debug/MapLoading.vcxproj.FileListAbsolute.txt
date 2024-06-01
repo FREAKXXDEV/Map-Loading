@@ -1,0 +1,13 @@
+I:\Code\C++\Projects\MapLoading\x64\Debug\sfml-graphics-d-2.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\sfml-window-d-2.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\sfml-system-d-2.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\freetyped.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\zlibd1.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\bz2d.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\libpng16d.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\brotlidec.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\brotlicommon.dll
+I:\Code\C++\Projects\MapLoading\MapLoading\x64\Debug\MapLoadi.576B2F41.Up2Date
+I:\Code\C++\Projects\MapLoading\x64\Debug\tmxlite-d.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\zstd.dll
+I:\Code\C++\Projects\MapLoading\x64\Debug\pugixml.dll
