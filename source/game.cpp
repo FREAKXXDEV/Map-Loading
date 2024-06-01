@@ -60,8 +60,9 @@ void Game::loadMap() {
 					}
 					
 					if (tiles[i].ID) {
+						// if tile id > 19 then y ++ x = 0;
 						Tile *rock = new Tile(TILE_SIZE);
-						rock->setTexture(rockTileset);
+						rock->setTexture(rockTileset, (unsigned int)tiles[i].ID);
 						rock->setPosition(posX * TILE_SIZE, posY * TILE_SIZE);
 						rocks.push_back(rock);
 					}
